@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CultuBotApp.Vistas.PageAboutUs"
+             BackgroundImageSource="Fondo.png">
+
+    <Grid VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <ScrollView>
+            <StackLayout>
+                <Image Source="TecnoInnovaTeam.jpg" VerticalOptions="StartAndExpand" HeightRequest="200" Aspect="AspectFill"/>
+                <Label Text="ACERCA DE NOSOTROS" TextColor="#394a6d" FontSize="25" HorizontalTextAlignment="Center"/>
+                <StackLayout Padding="12, 0, 12, 0" Spacing="0">
+                    <StackLayout Padding="0, 100, 0, 50" Spacing="0" Orientation="Vertical" HorizontalOptions="Center">
+                        <StackLayout HorizontalOptions="Center">
+                <Label FontSize="18" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" Margin="15,0" 
+                       VerticalTextAlignment="Start" LineBreakMode="WordWrap">
+                    somos un grupo que actualmente estudia en la Facultad Regional Muttidisciplinaria de Carazo
+UNAN-FAREM Carazo, nosotros como personas tuvimos el deseo y la idea de hacer algo en como ayudar a la cultura
+de nuetsro pais y por eso decidimos en esta parte enfocarnos en lo que son los bailes tipicos y se llego a la idea
+de realizar un movimiento basico de un baile tipico como es el gueguense con un robot, el cual esta heho en su mayoria 
+de materiales reciclados.
+                </Label>
+                </StackLayout>
+                </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+        </ScrollView>
+    </Grid>
+</ContentPage>

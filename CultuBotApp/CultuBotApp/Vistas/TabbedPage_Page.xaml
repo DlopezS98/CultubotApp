@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CultuBotApp.Vistas.TabbedPage_Page"
+            Title="                         CultuBot">
+    <!--TabbedPage 1-->
+    <ContentPage Title="Güegüense" IconImageSource="baseline_accessibility_new_white_18dp.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout>
+                        <Frame BackgroundColor="#394a6d" 
+                   HeightRequest="120" VerticalOptions="StartAndExpand">
+                            <!--<Label Text="CultuBot" TextColor="#c0ffb3" 
+                       FontSize="30" HorizontalTextAlignment="Center"  
+                       HeightRequest="300" VerticalOptions="FillAndExpand" />-->
+                        </Frame>
+                    </StackLayout>
+
+                    <!--Fondo frame-->
+                    <StackLayout>
+                        <StackLayout>
+                            <Frame BorderColor="#3c9d9b" CornerRadius="20" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="StartAndExpand" 
+                       Margin="30,50" HeightRequest="280" 
+                       WidthRequest="320">
+                                <Image Source="GueguenseImg.jpg"></Image>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout>
+                        
+                        <Button x:Name="btnBailar" TextColor="White"  
+                    Text="Bailar" CornerRadius="20" 
+                    BackgroundColor="#394a6d" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" HeightRequest="40" 
+                    Margin="0,65" />
+                        
+                        <Button x:Name="btnHistoria" TextColor="White" 
+                    Text="Historia" CornerRadius="20" 
+                    BackgroundColor="#3c9d9b" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" HeightRequest="40" 
+                    VerticalOptions="EndAndExpand" WidthRequest="250" />
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <!--TabbedPage-->
+    <ContentPage Title="Gigantona" IconImageSource="baseline_face_white_18dp.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout>
+                        <Frame BackgroundColor="#394a6d" 
+                   HeightRequest="120" VerticalOptions="StartAndExpand">
+                            <!--<Label Text="CultuBot" TextColor="#c0ffb3" 
+                       FontSize="30" HorizontalTextAlignment="Center"  
+                       HeightRequest="300" VerticalOptions="FillAndExpand" />-->
+                        </Frame>
+                    </StackLayout>
+
+                    <!--Fondo frame-->
+                    <StackLayout>
+                        <StackLayout>
+                            <Frame BorderColor="#3c9d9b" CornerRadius="20" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="StartAndExpand" 
+                       Margin="30,50" HeightRequest="280" 
+                       WidthRequest="320">
+                                <Image Source="Gigantona.jpg"></Image>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout>
+
+                        <Button x:Name="btnBailarGigan" TextColor="White"  
+                    Text="Bailar" CornerRadius="20" 
+                    BackgroundColor="#394a6d" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" HeightRequest="40" 
+                    Margin="0,65" />
+
+                        <Button x:Name="btnHistoriaGigan" TextColor="White" 
+                    Text="Historia" CornerRadius="20" 
+                    BackgroundColor="#3c9d9b" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" HeightRequest="40" 
+                    VerticalOptions="EndAndExpand" WidthRequest="250" />
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    
+    <!--TabbedPage-->
+    <ContentPage Title="About Us" IconImageSource="baseline_code_white_18dp.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout>
+                        <Frame BackgroundColor="#394a6d" 
+                   HeightRequest="120" VerticalOptions="StartAndExpand">
+                            <!--<Label Text="CultuBot" TextColor="#c0ffb3" 
+                       FontSize="30" HorizontalTextAlignment="Center"  
+                       HeightRequest="300" VerticalOptions="FillAndExpand" />-->
+                        </Frame>
+                    </StackLayout>
+
+                    <!--Fondo frame-->
+                    <StackLayout>
+                        <StackLayout>
+                            <Frame BorderColor="#3c9d9b" CornerRadius="20" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="StartAndExpand" 
+                       Margin="30,50" HeightRequest="280" 
+                       WidthRequest="320">
+                                <Image Source="Flayer.jpg"></Image>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout>
+
+                        <!--<Button x:Name="btnBailarGigan" TextColor="White"  
+                    Text="Bailar" CornerRadius="20" 
+                    BackgroundColor="#394a6d" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" HeightRequest="40" 
+                    Margin="0,65" />-->
+
+                        <Button x:Name="btnAboutUs" TextColor="White" 
+                    Text="info" CornerRadius="20" 
+                    BackgroundColor="#3c9d9b" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" HeightRequest="40" 
+                    VerticalOptions="EndAndExpand" WidthRequest="250" />
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            </ContentPage.Content>
+    </ContentPage>
+
+</TabbedPage>
